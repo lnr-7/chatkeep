@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="96" fill="#2f5d8a"/>
+  <!-- archive box with a lid -->
+  <rect x="96" y="128" width="320" height="64" rx="12" fill="#ffffff"/>
+  <rect x="120" y="208" width="272" height="192" rx="14" fill="#ffffff"/>
+  <rect x="208" y="248" width="96" height="24" rx="8" fill="#2f5d8a"/>
+  <!-- three lines of text inside -->
+  <rect x="160" y="304" width="192" height="14" rx="7" fill="#c3ccd6"/>
+  <rect x="160" y="334" width="150" height="14" rx="7" fill="#c3ccd6"/>
+  <rect x="160" y="364" width="176" height="14" rx="7" fill="#c3ccd6"/>
+</svg>

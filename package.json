@@ -1,0 +1,12 @@
+{
+  "name": "chatkeep",
+  "version": "1.0.0",
+  "description": "A local copy of your AI chats. Reads ChatGPT, Claude and Gemini export files in the browser; nothing leaves your device.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test",
+    "start": "python3 -m http.server 8080"
+  }
+}

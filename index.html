@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; connect-src 'none'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'"
+    />
+    <title>Chatkeep</title>
+    <meta
+      name="description"
+      content="A local copy of your AI chats. Reads the export files from ChatGPT, Claude and Gemini in your browser. Nothing leaves your device."
+    />
+    <meta name="theme-color" content="#2f5d8a" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icons/icon-192.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#/">Chatkeep</a>
+      <p class="tagline">Your AI chats, kept on this device.</p>
+    </header>
+
+    <main id="app" class="app" tabindex="-1">
+      <section id="list-pane" class="pane pane-list" aria-label="Chats"></section>
+      <section id="read-pane" class="pane pane-read" aria-label="Chat"></section>
+    </main>
+
+    <input id="file-input" type="file" accept=".zip,.json,application/zip,application/json" multiple hidden />
+
+    <div id="drop-veil" class="drop-veil" hidden>
+      <p>Drop the export file to add it</p>
+    </div>
+
+    <dialog id="confirm-dialog" class="sheet" aria-labelledby="confirm-title">
+      <h2 id="confirm-title"></h2>
+      <p id="confirm-text"></p>
+      <div class="sheet-actions">
+        <button type="button" class="btn btn-quiet" data-close>Cancel</button>
+        <button type="button" class="btn btn-stop" id="confirm-ok"></button>
+      </div>
+    </dialog>
+
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+    <noscript>
+      <p class="noscript">Chatkeep needs JavaScript to read your export files. Turn it on and reload this page.</p>
+    </noscript>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

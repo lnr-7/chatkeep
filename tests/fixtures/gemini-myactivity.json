@@ -1,0 +1,30 @@
+[
+  {
+    "header": "Gemini Apps",
+    "title": "Prompted What is the capital of Goa?",
+    "time": "2026-10-25T09:05:00.000Z",
+    "products": ["Gemini Apps"],
+    "safeHtmlItem": [{ "html": "<p>The capital of Goa is <b>Panaji</b>.</p><ul><li>Also spelled Panjim</li></ul>" }],
+    "activityControls": ["Gemini Apps Activity"]
+  },
+  {
+    "header": "Gemini Apps",
+    "title": "Prompted And the biggest city?",
+    "time": "2026-10-25T09:07:00.000Z",
+    "products": ["Gemini Apps"],
+    "safeHtmlItem": [{ "html": "Vasco da Gama &amp; Margao are the largest.<br>Panaji is smaller." }]
+  },
+  {
+    "header": "Gemini Apps",
+    "title": "Prompted Write a limerick about tea",
+    "time": "2026-10-26T18:00:00.000Z",
+    "products": ["Gemini Apps"],
+    "safeHtmlItem": [{ "html": "<p>There once was a cup full of tea…</p>" }]
+  },
+  {
+    "header": "Gemini Apps",
+    "title": "Used Gemini Apps",
+    "time": "2026-10-26T18:01:00.000Z",
+    "products": ["Gemini Apps"]
+  }
+]

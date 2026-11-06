@@ -1,0 +1,49 @@
+[
+  {
+    "uuid": "c-111",
+    "name": "Fix my resume",
+    "summary": "",
+    "created_at": "2026-10-30T10:00:00.000000Z",
+    "updated_at": "2026-10-30T10:20:00.000000Z",
+    "account": { "uuid": "acc-1" },
+    "chat_messages": [
+      {
+        "uuid": "m-1",
+        "text": "Can you tighten this summary?",
+        "content": [{ "start_timestamp": "2026-10-30T10:00:00Z", "type": "text", "text": "Can you tighten this summary?" }],
+        "sender": "human",
+        "created_at": "2026-10-30T10:00:00.000000Z",
+        "attachments": [],
+        "files": []
+      },
+      {
+        "uuid": "m-2",
+        "text": "",
+        "content": [
+          { "type": "tool_use", "name": "search", "input": {} },
+          { "type": "text", "text": "Here is a tighter version:" },
+          { "type": "text", "text": "Engineer with 5 years in payments." }
+        ],
+        "sender": "assistant",
+        "created_at": "2026-10-30T10:01:00.000000Z"
+      },
+      {
+        "uuid": "m-3",
+        "text": "   ",
+        "content": [],
+        "sender": "assistant",
+        "created_at": "2026-10-30T10:02:00.000000Z"
+      }
+    ]
+  },
+  {
+    "uuid": "c-222",
+    "name": "",
+    "created_at": "2026-11-01T08:00:00Z",
+    "updated_at": "2026-11-01T08:00:00Z",
+    "chat_messages": [
+      { "uuid": "m-9", "text": "Just a quick question about tea", "content": [], "sender": "human", "created_at": "2026-11-01T08:00:00Z" }
+    ]
+  },
+  { "uuid": "c-333", "name": "No messages", "chat_messages": [] }
+]
