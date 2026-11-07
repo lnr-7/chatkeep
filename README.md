@@ -27,6 +27,10 @@ Live: https://lnr-7.github.io/chatkeep/
 
 Menus move around; if these paths are stale, look for "export" in the service's settings.
 
+### Want it to happen by itself?
+
+[Chatkeep Sync](https://github.com/lnr-7/chatkeep-sync) is a browser extension that saves your Claude and ChatGPT chats as Markdown files every time you open the site, no export step needed. Chatkeep (this app) remains the way to read Gemini's Takeout and the official export files.
+
 ## Run it yourself
 
 Plain HTML, CSS and JavaScript, no build step.
